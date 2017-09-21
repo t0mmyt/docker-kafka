@@ -1,7 +1,7 @@
 FROM openjdk:8-jre
 LABEL maintainer Tom Taylor <tom@dockerfiles@tomm.yt>
 
-ARG KAFKA_VERSION=0.10.2.1
+ARG KAFKA_VERSION=0.11.0.1
 ARG SCALA_VERSION=2.11
 
 ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_amd64 /dumb-init
