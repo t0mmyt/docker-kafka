@@ -1,6 +1,7 @@
 FROM openjdk:8-jre
 LABEL maintainer Tom Taylor <tom@dockerfiles@tomm.yt>
 
+EXPOSE 2181 9092
 ARG KAFKA_VERSION=0.11.0.1
 ARG SCALA_VERSION=2.11
 
