@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre
+FROM openjdk:8-jre
 LABEL maintainer Tom Taylor <tom@dockerfiles@tomm.yt>
 
 ARG KAFKA_VERSION=0.10.2.1
